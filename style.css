@@ -1,0 +1,12 @@
+.barra {
+
+    height: 80px;
+    margin: 5px;
+    width: 10px;
+    background-color: red
+}
+
+.barra h2 {
+
+    font-size: 18px;
+}
