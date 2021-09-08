@@ -40,7 +40,7 @@ function inFrequence(div, dicePosition) {
 
     div.appendChild(paragraph);
 
-    div.style.width = `${rollOfDice[dicePosition]*3}px`
+    div.style.width = `${rollOfDice[dicePosition]*1.5}px`
 
 }
 
@@ -53,11 +53,11 @@ function dice() {
     
     for (i = 0 ; i<1000; i++) {
 
-        let num1 = getRandomNumber();
+        let dice01 = getRandomNumber();
 
-        let num2 = getRandomNumber();
+        let dice02 = getRandomNumber();
 
-        let sum = num1 + num2;
+        let sum = dice01 + dice02;
 
         rollOfDice[sum] = rollOfDice[sum] +1;
 

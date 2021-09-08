@@ -1,12 +1,26 @@
 .barra {
 
-    height: 80px;
+    height: 20px;
     margin: 5px;
     width: 10px;
     background-color: red
 }
 
-.barra h2 {
+ h2 {
 
-    font-size: 18px;
+    font-size: 15px;
+}
+
+
+@media (min-width: 400px) {
+
+    .barra {
+
+        height: 80px;
+        margin: 5px;
+        width: 10px;
+        background-color: red
+    }
+
+
 }
